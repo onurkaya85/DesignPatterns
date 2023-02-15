@@ -10,9 +10,7 @@ namespace StrategyPattern.Web.Models
         public static string claimDatabaseType = "databaseType";
         public EDatabaseType DatabaseType;
         public EDatabaseType GetDefaultDtabaseType => EDatabaseType.SqlServer;
-
     }
-
     public enum EDatabaseType
     {
         SqlServer = 1,

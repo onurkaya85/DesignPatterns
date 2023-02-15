@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseProject", "BaseProject\BaseProject.csproj", "{42D1F0D7-C1D4-4FDC-82B8-07D948DD00BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseProject", "BaseProject\BaseProject.csproj", "{42D1F0D7-C1D4-4FDC-82B8-07D948DD00BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern.Web", "StrategyPattern.Web\StrategyPattern.Web.csproj", "{ADBD10BF-33A8-416F-9AAE-D40A11FFE109}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern.Web", "CommandPattern.Web\CommandPattern.Web.csproj", "{FA57D131-06B3-427C-A849-066331C589D2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObserverPattern.Web", "ObserverPattern.Web\ObserverPattern.Web.csproj", "{0E150BA9-254E-47F1-9E3B-DD3AB4176256}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern.Web", "AdapterPattern.Web\AdapterPattern.Web.csproj", "{4EB29F90-1806-45F6-BC7B-3DBB7DDCE210}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0E150BA9-254E-47F1-9E3B-DD3AB4176256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E150BA9-254E-47F1-9E3B-DD3AB4176256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E150BA9-254E-47F1-9E3B-DD3AB4176256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EB29F90-1806-45F6-BC7B-3DBB7DDCE210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EB29F90-1806-45F6-BC7B-3DBB7DDCE210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EB29F90-1806-45F6-BC7B-3DBB7DDCE210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EB29F90-1806-45F6-BC7B-3DBB7DDCE210}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
